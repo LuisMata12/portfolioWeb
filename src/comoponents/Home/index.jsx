@@ -8,7 +8,7 @@ import { Logo } from './Logo'
 
 export const Home =()=>{
     const [letterClass, setLetterClass]=useState('text-animate');
-    const nameArray = ['l','o','b','o','d','a','n'];
+    const nameArray = ['u','i','s'];
     const jobArray =[
         'w',
         'e',
@@ -42,7 +42,7 @@ export const Home =()=>{
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
                 <img
-                  src={LogoTitle}
+                  src="https://static.vecteezy.com/system/resources/previews/013/760/442/original/abstract-letter-l-logo-illustration-in-trendy-and-minimal-style-png.png"
                   alt="JavaScript Developer Name, Web Developer Name"
                 />
                 <AnimatedLetters
@@ -57,7 +57,7 @@ export const Home =()=>{
                   idx={22}
                 />
               </h1>
-              <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+              <h2>Front End Developer / JavaScript Expert / Back End Developer</h2>
               <Link to="/contact" className="flat-button">
                 CONTACT ME
               </Link>

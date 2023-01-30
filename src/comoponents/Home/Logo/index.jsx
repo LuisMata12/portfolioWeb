@@ -41,7 +41,7 @@ export const Logo = () => {
       <img
         className="solid-logo"
         ref={solidLogoRef}
-        src={LogoS}
+        src="https://static.vecteezy.com/system/resources/previews/013/760/442/original/abstract-letter-l-logo-illustration-in-trendy-and-minimal-style-png.png"
         alt="JavaScript,  Developer"
       />
 

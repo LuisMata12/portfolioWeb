@@ -12,7 +12,7 @@ export const Sidebar = () => {
   return (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
-            <img src={LogoS} alt="logo"/>
+            <img src="https://static.vecteezy.com/system/resources/previews/013/760/442/original/abstract-letter-l-logo-illustration-in-trendy-and-minimal-style-png.png" alt="logo"/>
             <img className='sub-logo' src={LogoSubtitle} alt="sub-logo"/>
         </Link>
         <nav>
